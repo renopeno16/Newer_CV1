@@ -1,0 +1,171 @@
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  margin-bottom: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial, sans-serif';
+  border-radius: 15px; 
+}
+
+h1, h2 {
+  margin: 0;
+  text-align: center;
+}
+
+p, ul {
+  color: black;
+  line-height: 1.6;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.p1 {
+  color: blue;
+  font-size: 20px; 
+  text-align: center;
+  line-height: 1.6;
+}
+
+header {
+  margin-top: 20px;
+  background-color: #333;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-top: 1px, solid #ddd;
+  text-align: center;
+  border-radius: 15px;
+  position: fixed;
+  width: 2525px;
+  bottom: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #0073e6;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ffe600;
+}
+
+.language-toggle {
+  background-color: white;
+  color: #0073e6;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.language-toggle:hover {
+  background-color: #005bb5;
+  color: white;
+  transform: scale(1.05);
+}
+
+.profile-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: #171717;
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.about-me {
+margin: 0 auto;
+font-size: 15px;
+font-Family: arial;
+text-Align: center;
+word-Wrap: break-word;
+max-Width: 600px;
+color: #0073e6;
+margin-bottom: 20px;
+}
+
+.profile-card-name {
+  color: black;
+  line-height: 1.6;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.contact-box {
+  align-items: center;
+  width:  100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0073e6 ;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input [type="text"],
+
+.contact-label {
+ font-size: 16px;
+ color: white;
+ font-weight: bold;
+ margin-bottom: 5px;
+ display: block;
+}
+
+.contact-textArea {
+  width: 100%;
+  padding: 10px;
+  border: 1px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
